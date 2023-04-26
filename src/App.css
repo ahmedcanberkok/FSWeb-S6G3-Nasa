@@ -14,18 +14,18 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #2e00ff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content:center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(68, 68, 68);
 }
 
 .App-link {
-  color: #61dafb;
+  color: #1e2325;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +35,79 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+ /* Global stil tanımları */
+ body {
+  margin: 0.5;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a {
+  color: black;
+  text-decoration:none;
+}
+
+header, main, footer {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+} 
+
+/* Header stil tanımları */
+header {
+  display: flex;
+  align-items: center;
+  background-color: blue
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 10;
+  display: flex;
+  font:bold;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a:hover {
+  color: #131212;
+}
+
+/* Main stil tanımları */
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin: 0 ;
+  flex-wrap: wrap;
+  font-size: 28px;
+}
+
+/* Footer stil tanımları */
+footer {
+  background-color: blue;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+} 
+
+#toggleİmage {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
 }
